@@ -1,0 +1,20 @@
+{
+  "name": "01-webpack-simple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build.js",
+  "scripts": {
+    "start": "http-server -p 8001",
+    "build": "node build.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/parser": "^7.16.2",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/traverse": "^7.16.0",
+    "http-server": "^14.0.0"
+  }
+}
